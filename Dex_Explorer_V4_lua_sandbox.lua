@@ -126,7 +126,7 @@ end
 
 -- Main Gui References
 local gui = createDexGui()
-gui.Parent = Services.CoreGui
+gui.Parent = owner.PlayerGui
 local contentL = gui:WaitForChild("ContentFrameL")
 local contentR = gui:WaitForChild("ContentFrameR")
 local resources = gui:WaitForChild("Resources")
